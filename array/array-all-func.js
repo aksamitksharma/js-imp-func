@@ -21,7 +21,7 @@ console.log(fruits_3); // Output: ['banana', 'orange']
 // unshift(): Adds one or more elements to the beginning of an array.
 console.log('unshift(): Adds one or more elements to the beginning of an array.');
 const fruits_4 = ['banana', 'orange'];
-fruits.unshift('apple');
+fruits_4.unshift('apple');
 console.log(fruits_4); // Output: ['apple', 'banana', 'orange']
 
 // slice(): Returns a shallow copy of a portion of an array into a new array.
@@ -34,7 +34,7 @@ console.log(slicedFruits); // Output: ['banana', 'orange']
 // splice(): Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place.
 console.log('splice(): Changes the contents of an array by removing or replacing existing elements and/or adding new elements in place');
 const fruits_6 = ['apple', 'banana', 'orange'];
-fruits.splice(1, 1, 'grape', 'melon');
+fruits_6.splice(1, 1, 'grape', 'melon');
 console.log(fruits_6); // Output: ['apple', 'grape', 'melon', 'orange']
 
 
